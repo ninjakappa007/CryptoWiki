@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoWiki:Get all info about crypto</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="bitcoin-btc-logo.png" type="image/x-icon">
+    <style>
+        table, th, td {
+          border:2px solid rgb(29 78 216 / var(--tw-bg-opacity));;
+        }
+     </style>
+</head>
+<body>
+<div class="w-[100vw] bg-gradient-to-r from-cyan-400 to-blue-500">
+    <div class="main-wrapper bg-slate-950 text-white h-[100vh] w-[1080px] mx-auto border border-blue-400">
+        <!-- heading -->
+        <div class="heading">
+            <h1 class="text-left text-8xl text-blue-700 ml-5">Click For <span class="text-white">Info</span></h1>
+        </div>
+        <!-- btn container -->
+        <div class="btn-container flex justify-evenly p-4">
+            <div class="btn rounded-md p-4 text-xl bg-blue-700 hover:scale-105 duration-300 hover:text-black hover:bg-blue-200 font-bold">
+                <button class="btc">Bitcoin</button>
+            </div>
+            <div class="btn rounded-md p-4 text-xl bg-blue-700 hover:scale-105 duration-300 hover:text-black hover:bg-blue-200 font-bold">
+                <button class="eth">Ethereum</button>
+            </div>
+            <div class="btn rounded-md p-4 text-xl bg-blue-700 hover:scale-105 duration-300 hover:text-black hover:bg-blue-200 font-bold">
+                <button class="nem">NEM</button>
+            </div>
+            <div class="btn rounded-md p-4 text-xl bg-blue-700 hover:scale-105 duration-300 hover:text-black hover:bg-blue-200 font-bold">
+                <button class="coval">Coval</button>
+            </div>
+            <div class="btn rounded-md p-4 text-xl bg-blue-700 hover:scale-105 duration-300 hover:text-black hover:bg-blue-200 font-bold">
+                <button class="byte">Bytecent</button>
+            </div>
+            <div class="btn rounded-md p-4 text-xl bg-blue-700 hover:scale-105 duration-300 hover:text-black hover:bg-blue-200 font-bold">
+                <button class="can">CannabisCoin</button>
+            </div>
+            <div class="btn rounded-md p-4 text-xl bg-blue-700 hover:scale-105 duration-300 hover:text-black hover:bg-blue-200 font-bold">
+                <button class="start">StartCoin</button>
+            </div>
+
+        </div>
+        <!-- output container -->
+        <div class="response-container p-4"> 
+    
+            <table class="mx-auto rounded-md font-bold" style="width: 600px; height: 500px;table-layout: fixed; text-align: center;">
+                <tr>
+                    <td>
+                        NAME
+                    </td>
+                    <td>
+                        <div class="name"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>RANK</td>
+                    <td>
+                        <div class="rank"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PRICE IN USD</td>
+                    <td>
+                        <div class="price-usd"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PRICE IN INR</td>
+                    <td>
+                        <div class="price-inr"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PERCENT CHANGE IN 1 HOUR</td>
+                    <td>
+                        <div class="perc1h"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PERCENT CHANGE IN 24 HOUR</td>
+                    <td>
+                        <div class="perc24h"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PERCENT CHANGE IN 7 DAYS</td>
+                    <td>
+                        <div class="perc7d"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>MARKET CAPITAL</td>
+                    <td>
+                        <div class="market-cap"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>VOLUME IN 24 HOURS</td>
+                    <td>
+                        <div class="vol24h"></div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+       
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
